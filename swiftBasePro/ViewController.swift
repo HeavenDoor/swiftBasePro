@@ -19,6 +19,10 @@ class ViewController: UIViewController {
         print(hellStr);
         hellStr = "ni hao"
         
+        if (self is UIViewController) {
+            
+        }
+        
         let button = UIButton.init();
         button.frame = CGRect(x: 100, y: 200, width: 200, height: 100);
         button.setTitle("shenghai", for: .normal);
@@ -60,7 +64,9 @@ class ViewController: UIViewController {
     }
     
     func ggwp() {
-        NSLog("slfkjksdf");
+        NSLog("shenghai btn Clicked");
+        let vc = SecondViewController.init();
+        self.navigationController?.pushViewController(vc, animated: true);
     }
 
 }
