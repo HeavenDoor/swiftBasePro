@@ -18,9 +18,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         
         window = UIWindow.init(frame: UIScreen.main.bounds)
-        let viewcon = ViewController.init();
-        rootNavigation = UINavigationController.init(rootViewController: viewcon);
-        window?.rootViewController = rootNavigation;
+        let tabbarVC = TabbarController.init();
+        //rootNavigation = UINavigationController.init(rootViewController: viewcon);
+        window?.rootViewController = tabbarVC;
         window?.makeKeyAndVisible()
         return true
     }

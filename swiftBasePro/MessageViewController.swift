@@ -9,13 +9,16 @@
 import UIKit
 import SnapKit
 
-class SecondViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
+class MessageViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
     var tableView:UITableView!
     var tableData = NSMutableArray();
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.navigationController?.navigationBar.isHidden = true;
         tableView = UITableView.init();
         view.addSubview(tableView);
+        tableView.delegate = self
+        tableView.dataSource = self
         tableView.snp.makeConstraints { (make) in
             make.left.right.bottom.top.equalTo(view);
         }

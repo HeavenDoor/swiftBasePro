@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  HomeViewController.swift
 //  swiftBasePro
 //
 //  Created by shenghai on 2016/12/22.
@@ -9,19 +9,17 @@
 import UIKit
 import SnapKit
 
-class ViewController: UIViewController {
+class HomeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.navigationController?.navigationBar.isHidden = true;
         var dbValue = 5.2
         
         var hellStr = self.sayHello("  shenghai", 20, dbResult: &dbValue);
         print(hellStr);
         hellStr = "ni hao"
         
-        if (self is UIViewController) {
-            
-        }
         
         let button = UIButton.init();
         button.frame = CGRect(x: 100, y: 200, width: 200, height: 100);
@@ -29,13 +27,10 @@ class ViewController: UIViewController {
         button.backgroundColor = UIColor.red;
         button.setTitleColor(UIColor.black, for: .normal);
         self.view.addSubview(button);
-        button.addTarget(self, action: #selector(ViewController.ggwp), for: .touchUpInside);
+        button.addTarget(self, action: #selector(self.ggwp), for: UIControlEvents.touchUpInside);
+        //button.addTarget(self, action: #selector(ViewController.ggwp), for: .touchUpInside);
         // Do any additional setup after loading the view, typically from a nib.
         
-        let imageView = UIImageView.init(frame: CGRect(x: 10, y: 10, width: 100, height: 200));
-        let image = UIImage.init(imageLiteralResourceName: "查看全景图");
-        imageView.image = image;
-        self.view.addSubview(imageView);
         
         let label = UILabel.init();
         
@@ -63,9 +58,9 @@ class ViewController: UIViewController {
         return 5;
     }
     
-    func ggwp() {
+    @objc func ggwp() {
         NSLog("shenghai btn Clicked");
-        let vc = SecondViewController.init();
+        let vc = MessageViewController.init();
         self.navigationController?.pushViewController(vc, animated: true);
     }
 

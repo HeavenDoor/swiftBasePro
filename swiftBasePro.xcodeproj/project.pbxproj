@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		1A4C70B1D7A3E94A36EBE593 /* Pods_swiftBasePro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7B676C3B42E95407547BEF2 /* Pods_swiftBasePro.framework */; };
 		4A7D88211E0BFBF8005EA307 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7D88201E0BFBF8005EA307 /* AppDelegate.swift */; };
-		4A7D88231E0BFBF8005EA307 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7D88221E0BFBF8005EA307 /* ViewController.swift */; };
-		4A7D88261E0BFBF8005EA307 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A7D88241E0BFBF8005EA307 /* Main.storyboard */; };
+		4A7D88231E0BFBF8005EA307 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7D88221E0BFBF8005EA307 /* HomeViewController.swift */; };
 		4A7D88281E0BFBF8005EA307 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A7D88271E0BFBF8005EA307 /* Assets.xcassets */; };
 		4A7D882B1E0BFBF8005EA307 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A7D88291E0BFBF8005EA307 /* LaunchScreen.storyboard */; };
-		4AFB6CCD1E8AA40B00351622 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AFB6CCC1E8AA40B00351622 /* SecondViewController.swift */; };
+		4AF0A6A9212FB3F1001FBFD4 /* TabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF0A6A8212FB3F1001FBFD4 /* TabbarController.swift */; };
+		4AFB6CCD1E8AA40B00351622 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AFB6CCC1E8AA40B00351622 /* MessageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,12 +21,12 @@
 		3D4CA8365FA82EA38A975A86 /* Pods-swiftBasePro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiftBasePro.release.xcconfig"; path = "Pods/Target Support Files/Pods-swiftBasePro/Pods-swiftBasePro.release.xcconfig"; sourceTree = "<group>"; };
 		4A7D881D1E0BFBF8005EA307 /* swiftBasePro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftBasePro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A7D88201E0BFBF8005EA307 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4A7D88221E0BFBF8005EA307 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4A7D88251E0BFBF8005EA307 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4A7D88221E0BFBF8005EA307 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		4A7D88271E0BFBF8005EA307 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A7D882A1E0BFBF8005EA307 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A7D882C1E0BFBF8005EA307 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4AFB6CCC1E8AA40B00351622 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		4AF0A6A8212FB3F1001FBFD4 /* TabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarController.swift; sourceTree = "<group>"; };
+		4AFB6CCC1E8AA40B00351622 /* MessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
 		C7B676C3B42E95407547BEF2 /* Pods_swiftBasePro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swiftBasePro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -64,12 +64,12 @@
 			isa = PBXGroup;
 			children = (
 				4A7D88201E0BFBF8005EA307 /* AppDelegate.swift */,
-				4A7D88221E0BFBF8005EA307 /* ViewController.swift */,
-				4AFB6CCC1E8AA40B00351622 /* SecondViewController.swift */,
-				4A7D88241E0BFBF8005EA307 /* Main.storyboard */,
+				4A7D88221E0BFBF8005EA307 /* HomeViewController.swift */,
+				4AFB6CCC1E8AA40B00351622 /* MessageViewController.swift */,
 				4A7D88271E0BFBF8005EA307 /* Assets.xcassets */,
 				4A7D88291E0BFBF8005EA307 /* LaunchScreen.storyboard */,
 				4A7D882C1E0BFBF8005EA307 /* Info.plist */,
+				4AF0A6A8212FB3F1001FBFD4 /* TabbarController.swift */,
 			);
 			path = swiftBasePro;
 			sourceTree = "<group>";
@@ -103,7 +103,6 @@
 				4A7D881A1E0BFBF8005EA307 /* Frameworks */,
 				4A7D881B1E0BFBF8005EA307 /* Resources */,
 				DFCD49CD5282B2572B42D932 /* [CP] Embed Pods Frameworks */,
-				EF826ED47674E15FE7B9E48D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -155,7 +154,6 @@
 			files = (
 				4A7D882B1E0BFBF8005EA307 /* LaunchScreen.storyboard in Resources */,
 				4A7D88281E0BFBF8005EA307 /* Assets.xcassets in Resources */,
-				4A7D88261E0BFBF8005EA307 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,13 +166,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-swiftBasePro-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		DFCD49CD5282B2572B42D932 /* [CP] Embed Pods Frameworks */ = {
@@ -183,28 +184,30 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-swiftBasePro/Pods-swiftBasePro-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/RTRootNavigationController/RTRootNavigationController.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RTRootNavigationController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-swiftBasePro/Pods-swiftBasePro-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		EF826ED47674E15FE7B9E48D /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-swiftBasePro/Pods-swiftBasePro-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -214,8 +217,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4AFB6CCD1E8AA40B00351622 /* SecondViewController.swift in Sources */,
-				4A7D88231E0BFBF8005EA307 /* ViewController.swift in Sources */,
+				4AFB6CCD1E8AA40B00351622 /* MessageViewController.swift in Sources */,
+				4AF0A6A9212FB3F1001FBFD4 /* TabbarController.swift in Sources */,
+				4A7D88231E0BFBF8005EA307 /* HomeViewController.swift in Sources */,
 				4A7D88211E0BFBF8005EA307 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -223,14 +227,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		4A7D88241E0BFBF8005EA307 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4A7D88251E0BFBF8005EA307 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4A7D88291E0BFBF8005EA307 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -342,7 +338,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = shenghai.swiftBasePro.swiftBasePro;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -355,7 +351,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = shenghai.swiftBasePro.swiftBasePro;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
